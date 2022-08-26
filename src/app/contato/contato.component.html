@@ -15,7 +15,7 @@
             (formContato.controls['nome'].touched || formContato.controls['nome'].dirty)"
         >
             <small class="error-message" *ngIf="formContato.controls['nome'].hasError('minlength')">
-                Tamanho mínimo de 4 caracteres.
+                Por favor, digite seu nome. Mínimo de 4 caracteres.
             </small>
             <small class="error-message" *ngIf="formContato.controls['nome'].hasError('required')">
                 Campo obrigatório.
@@ -76,7 +76,7 @@
             (formContato.controls['email'].touched || formContato.controls['email'].dirty)"
         >
             <small class="error-message" *ngIf="formContato.controls['email'].hasError('email')">
-                Digite um e-mail válido.
+                Por favor insira o endereço de email no seguinte formato: seunome@example.com
             </small>
             <small class="error-message" *ngIf="formContato.controls['email'].hasError('required')">
                 Campo obrigatório.

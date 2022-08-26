@@ -42,3 +42,19 @@
 .contact-form button:disabled:hover {
     filter: none;
 }
+
+.error-message {
+  color: #c51244 !important;
+}
+
+input {
+    padding: 12px;
+}
+
+input.invalid{
+    background-color: #ffaac2 !important;
+}
+
+textarea.invalid{
+    background-color: #ffaac2 !important;
+}
